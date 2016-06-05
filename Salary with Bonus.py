@@ -1,0 +1,5 @@
+name=input()
+fixedsalary=float(input())
+solditems=float(input())
+bounce=solditems*(15/100)
+print("TOTAL = R$","{0:.2f}".format((fixedsalary+bounce)))

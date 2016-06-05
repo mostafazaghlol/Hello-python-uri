@@ -1,0 +1,9 @@
+secs=int(input())
+hour=int(secs/365)
+rest=secs-(hour*365)
+mins=int(rest/30)
+rest2=rest-(mins*30)
+secs=rest2
+print(hour,"ano(s)")
+print(mins,"mes(es)")
+print(secs,"dia(s)")

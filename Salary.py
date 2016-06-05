@@ -1,0 +1,5 @@
+empnum=int(input())
+emphour=int(input())
+moneyforhour=float(input())
+print("NUMBER =",empnum)
+print("SALARY = U$","{0:.2f}".format((moneyforhour*emphour)))
